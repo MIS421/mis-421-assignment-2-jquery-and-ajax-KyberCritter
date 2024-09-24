@@ -1,21 +1,23 @@
 # MIS 421 Assignment 2: JQuery and AJAX
 
->For this assignment, you will be creating a Bing Search API using your Microsoft Azure account and using it to construct a simple web search site. Follow these steps to create the Search API:
-  1. Go to https://portal.azure.com/, login to your account if prompted.
-  2. Click 'Create a resource' from the menu on the left.
-  3. On the next page, select the 'AI + Machine Learning' category.
-  4. Click 'Bing Search v7' from the options on the right.
-  5. On the next page, fill out the required info accordingly:
-     1. Name: mybamaID-421-search-api
-     2. Subscription: Whatever your assignment 2 subscription displays as
-     3. Pricing tier: F1
-     4. Resource group: Click 'Create new' under the dropdown menu, give the new group a name and click OK.
-     5. Resource group location: (US) Central US
-  6. Click Create at the bottom of the page. Wait for Azure to deploy the API.
-  7. Click the 'Go to resource' button once it appears.
-  8. Take note of your API key and endpoint URL, this is how you will access your API through your site.
+For this assignment, you will be creating a Bing Search API using your Microsoft Azure account and using it to construct a simple web search site. Follow these steps to create the Search API:
 
->Once your API is created, clone down this repo. You have been provided with CSS, JS, and HTML template files, all CSS and JS code must be contained within their respective files. Once cloned to your machine, employ the following features:
+1. Go to the [Azure portal](https://portal.azure.com/), login to your account if prompted.
+2. Click 'Create a resource' from the menu on the left.
+3. On the next page, select the 'AI + Machine Learning' category.
+4. Click 'Bing Search v7' from the options on the right.
+5. On the next page, fill out the required info accordingly:
+    1. Name: mybamaID-421-search-api
+    2. Subscription: Whatever your assignment 2 subscription displays as
+    3. Pricing tier: F1
+    4. Resource group: Click 'Create new' under the dropdown menu, give the new group a name and click OK.
+    5. Resource group location: (US) Central US
+6. Click Create at the bottom of the page. Wait for Azure to deploy the API.
+7. Click the 'Go to resource' button once it appears.
+8. Take note of your API key and endpoint URL, this is how you will access your API through your site.
+
+Once your API is created, clone down this repo. You have been provided with CSS, JS, and HTML template files, all CSS and JS code must be contained within their respective files. Once cloned to your machine, employ the following features:
+
 - Include JQuery, JQuery UI, and a JQuery UI theme via CDN links.
   - These links can be found [here](https://developers.google.com/speed/libraries/).
   - You should use a SRI hash for each of these CDN links like the example given in class. [Srihash](srihash.org) is an excellent tool for this.
