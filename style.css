@@ -1,1 +1,24 @@
- 
+
+h1 {
+    text-align: center;
+}
+
+#searchBox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url("dragnet.jpeg");
+    background-size: 20vw;
+}
+
+.body_2 {
+    background-image: url("komodo_dragon.jpeg");
+    background-size: 20vw;
+}
+
+#searchResults, #time {
+    display: hidden;
+}
