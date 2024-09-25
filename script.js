@@ -31,6 +31,16 @@ function apiSearch() {
         alert("error");
     });
 }
+
+var input = document.getElementById("query");
+
+input.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        document.getElementById("searchButton").click();
+    }
+});
+
 function luckySearch() {
     var params = {
         "q": $("#query").val(),
