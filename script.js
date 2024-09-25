@@ -35,3 +35,12 @@ function apiSearch() {
 function changeImage() {
     document.getElementById("body").classList.toggle('body_2');
 }
+
+function showTime() {
+    const currentTime = new Date();
+    const formattedTime = currentTime.toJSON();
+    $("#time").text(`${currentTime.getHours()}:${currentTime.getMinutes()}`);
+    $(function () {
+        $("#time").dialog();
+    });
+}

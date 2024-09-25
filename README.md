@@ -24,7 +24,7 @@ Once your API is created, clone down this repo. You have been provided with CSS,
 - HTML:
   - [x] A header with the name of your 'search engine' (be creative).
   - [x] A title of the same name.
-  - [ ] A text box with an ID of 'query'.
+  - [x] A text box with an ID of 'query'.
   - [x] A button with a value of 'Search' under your text box.
   - [x] A second button that will display the current time.
   - [x] An empty div with an ID of 'searchResults'.
@@ -36,7 +36,7 @@ Once your API is created, clone down this repo. You have been provided with CSS,
 - JS:
   - [x] Replace 'my-api-url' under the ajax call with the url from your search API.
   - [x] Replace 'my-api-key' next to 'Ocp-Apim-Subscription-Key' with the api key from your search API.
-  - [ ] Write a function that calls the 'apiSearch' function on a click of your search button.
+  - [x] Write a function that calls the 'apiSearch' function on a click of your search button.
   - [x] Write a function that changes the background image of your site on a click of your search engine name.
   - [ ] Write a function that gets the current time (formatted HH:MM), loads the result into your 'time' div, and displays the div as a JQuery UI dialog window on a click of your time button.
 - BONUS:

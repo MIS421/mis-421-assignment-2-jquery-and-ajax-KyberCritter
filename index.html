@@ -13,7 +13,7 @@
         <!--Text box with ID of query-->
         <input id="query" />
         <!--search button-->
-        <button id="searchButton">Search</button>
+        <button id="searchButton" onclick="apiSearch()">Search</button>
     </div>
 
     <div id="resultsBox">
@@ -24,16 +24,19 @@
     </div>
 
     <div id="timeBox">
-        <button id="timeButton">Time</button>
+        <button id="timeButton" onclick="showTime()">Time</button>
         <!--empty div for time-->
         <div id="time">
 
         </div>
     </div>
 
-    <script type="text/javascript" src="./script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+
+    <script defer type="text/javascript" src="./script.js"></script>
+    <!--jQuery-->
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <!--jQuery UI-->
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/themes/smoothness/jquery-ui.css" integrity="sha384-AUxBc4TYOEuk4Hp24650vW1R1zXkuFE8IK5cgdi5qyXRKuc1Xx2ndBiefujL0Qho" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js" integrity="sha384-8EM386r8XMMzwGPUxfGNr6c1wIOYnPQBJ6VFxzKCZeklpQarHoZGB40kdNDA3gYr" crossorigin="anonymous"></script>
+    <script async src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js" integrity="sha384-8EM386r8XMMzwGPUxfGNr6c1wIOYnPQBJ6VFxzKCZeklpQarHoZGB40kdNDA3gYr" crossorigin="anonymous"></script>
 </body>
 </html>

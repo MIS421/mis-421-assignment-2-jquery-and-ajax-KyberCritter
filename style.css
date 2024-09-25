@@ -11,12 +11,18 @@ h1 {
 
 body {
     background-image: url("dragnet.jpeg");
-    background-size: 20vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    background-color: dimgray;
 }
 
 .body_2 {
     background-image: url("komodo_dragon.jpeg");
-    background-size: 20vw;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    background-color: dimgray;
 }
 
 #searchResults, #time {
