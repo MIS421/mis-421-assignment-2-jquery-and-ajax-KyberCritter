@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Dragnet</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
+</head>
+
+<body id="body">
+    <h1 onclick="changeImage()">Dragnet</h1>
+
+    <div id="searchBox">
+        <!--Text box with ID of query-->
+        <input id="query" />
+        <!--search button-->
+        <button id="searchButton" onclick="apiSearch()">Search</button>
+        <button id="luckyButton" onclick="luckySearch()">I'm Feeling Lucky!</button>
+    </div>
+
+    <div id="resultsBox">
+        <!--empty div for results-->
+        <div id="searchResults">
+
+        </div>
+    </div>
+
+    <div id="timeBox">
+        <button id="timeButton" onclick="showTime()">Time</button>
+        <!--empty div for time-->
+        <div id="time">
+
+        </div>
+    </div>
+
+    <script defer type="text/javascript" src="./js/script.js"></script>
+    <!--jQuery-->
+    <script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <!--jQuery UI-->
+    <script async src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js" integrity="sha384-8EM386r8XMMzwGPUxfGNr6c1wIOYnPQBJ6VFxzKCZeklpQarHoZGB40kdNDA3gYr" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+/* Common styles */
+body {
+    background-image: url("/images/dragnet.jpeg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    background-color: dimgray;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: black 5px 4px 8px;
+    font-size: 7em;
+}
+
+/* Alternate body style */
+.body_2 {
+    background-image: url("/images/komodo_dragon.jpeg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    background-color: dimgray;
+}
+
+/* Search display */
+#searchBox {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+#searchResults, #time {
+    display: hidden;
+}
+
+#query {
+    width: 20vw;
+    height: 40px;
+    max-height: 15vh;
+    font-size: 2em;
+}
+
+#searchButton, #luckyButton, #timeButton {
+    width: 7vw;
+    max-width: 500px;
+    font-size: 1em;
+}
+
+/* Time display */
+#timeBox {
+    padding-top: 6vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
