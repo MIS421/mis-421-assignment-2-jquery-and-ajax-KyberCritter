@@ -32,15 +32,15 @@ Once your API is created, clone down this repo. You have been provided with CSS,
 - CSS:
   - [x] Set the background of the page to an image of your choice. ([Unsplash](unsplash.com) is a great resource for free images)
   - [x] Set the visibility of the 'searchResults' and 'time' divs to hidden.
-  - [ ] Style the rest of the page however you see fit. points will be lost if little or no effort is given in styling your site.
+  - [x] Style the rest of the page however you see fit. points will be lost if little or no effort is given in styling your site.
 - JS:
   - [x] Replace 'my-api-url' under the ajax call with the url from your search API.
   - [x] Replace 'my-api-key' next to 'Ocp-Apim-Subscription-Key' with the api key from your search API.
   - [x] Write a function that calls the 'apiSearch' function on a click of your search button.
   - [x] Write a function that changes the background image of your site on a click of your search engine name.
-  - [ ] Write a function that gets the current time (formatted HH:MM), loads the result into your 'time' div, and displays the div as a JQuery UI dialog window on a click of your time button.
+  - [x] Write a function that gets the current time (formatted HH:MM), loads the result into your 'time' div, and displays the div as a JQuery UI dialog window on a click of your time button.
 - BONUS:
-  - [ ] Implement a 'I'm feeling lucky' button. This button should take the user to the first web page returned from your search API.
+  - [x] Implement a 'I'm feeling lucky' button. This button should take the user to the first web page returned from your search API.
   - [x] Modify the function that changes your background image so that each click cycles through two different images without refreshing the page.
 - Deploy your site to Azure, following the instructions provided on Blackboard.
 
